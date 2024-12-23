@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="review.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--=================  HEADER =======================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="main.html" class="nav_logo">
+          <span class="nav_logo_square">L</span>
+          <span class="nav_logo_name">YuChen.</span>
+        </a>
+
+        <div class="nav_menu" id="nav-menu">
+          <span class="nav_title">Menu</span>
+          <h3 class="nav_name">Yu Chen</h3>
+
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="main.html" class="nav_link">Home</a>
+            </li>
+            <li class="nav_item">
+              <a href="about.html" class="nav_link">About Me</a>
+            </li>
+            <li class="nav_item">
+              <a href="projects.html" class="nav_link">Projects</a>
+            </li>
+            <li class="nav_item">
+              <a href="review.html" class="nav_link">Reviews</a>
+            </li>
+            <li class="nav_item">
+              <a href="contact.html" class="nav_link nav_link-button"
+                >Contact</a
+              >
+            </li>
+            <li class="nav_item">
+              <a href="#report" class="nav_link">Report</a>
+            </li>
+          </ul>
+          <!--Close Button-->
+          <div class="nav_close" id="nav-close">
+            <ion-icon name="close-circle-outline"></ion-icon>
+          </div>
+        </div>
+        <div class="nav-buttons">
+          <!-- Theme button-->
+          <ion-icon
+            name="moon-outline"
+            class="change-theme"
+            id="theme-button"
+          ></ion-icon>
+
+          <!--Toggle Button-->
+          <div class="nav_toggle" id="nav-toggle">
+            <ion-icon name="menu-outline"></ion-icon>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--===========================Services============================-->
+    <section class="services-section">
+      <h2 class="section_title-2">
+        <span>Services.</span>
+      </h2>
+      <div class="services_container container grid">
+        <article class="services_card">
+          <div class="services_border"></div>
+          <div class="services_content">
+            <div class="services_icon">
+              <div class="services_box"></div>
+              <ion-icon name="logo-python"></ion-icon>
+            </div>
+            <h2 class="services_title">Data Analysis</h2>
+            <p class="services_description">
+              Offering comprehensive data analysis services using Python,
+              including statistical analysis, data visualization, and reporting
+              to help businesses make data-driven decisions.
+            </p>
+          </div>
+        </article>
+
+        <article class="services_card">
+          <div class="services_border"></div>
+          <div class="services_content">
+            <div class="services_icon">
+              <div class="services_box"></div>
+              <ion-icon name="logo-javascript"></ion-icon>
+            </div>
+            <h2 class="services_title">Introduction to Programming</h2>
+            <p class="services_description">
+              Providing beginner-friendly programming tutorials and courses in
+              JavaScript, helping aspiring developers learn the fundamentals of
+              coding and web development.
+            </p>
+          </div>
+        </article>
+
+        <article class="services_card">
+          <div class="services_border"></div>
+          <div class="services_content">
+            <div class="services_icon">
+              <div class="services_box"></div>
+              <ion-icon name="logo-html5"></ion-icon>
+            </div>
+
+            <h2 class="services_title">Website Design</h2>
+            <p class="services_description">
+              Crafting visually stunning and user-friendly websites, using
+              HTML5, CSS3, and responsive design principles to ensure a seamless
+              experience across all devices.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="testimonal" id="testimonals">
+      <h2 class="section_title-2">
+        <span>Testimonals.</span>
+      </h2>
+
+      <h3>Reviews by Cilents:</h3>
+      <!--============================== Testimonials-Box-Container =============================-->
+
+      <div class="testimonal-box-container">
+        <!--============================= Box-1 ==================================-->
+        <div class="testimonial-box">
+          <div class="box-top">
+            <div class="profile">
+              <div class="profile-img">
+                <img src="assets/Review1.jpg" alt="keagan" />
+              </div>
+              <div class="name-user">
+                <strong>Jane Doe</strong>
+                <span>@JaneDoe</span>
+              </div>
+            </div>
+            <!-- Move Reviews Outside of Profile -->
+            <div class="reviews">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+            </div>
+          </div>
+          <!--====================================== Comments =======================================-->
+          <div class="client-comment">
+            <p>
+              "Yu Chen provided exceptional data analysis services for our
+              project. His insights were invaluable, and his ability to
+              visualize data in an understandable way made all the difference.
+              Highly recommend!"
+            </p>
+          </div>
+        </div>
+        <div class="testimonial-box">
+          <div class="box-top">
+            <div class="profile">
+              <div class="profile-img">
+                <img src="assets/review2.jpg" alt="keagan" />
+              </div>
+              <div class="name-user">
+                <strong>John Smith</strong>
+                <span>@JohnSmith</span>
+              </div>
+            </div>
+            <!--============================== Move Reviews Outside of Profile =====================================-->
+            <div class="reviews">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+            </div>
+          </div>
+          <!--========================================== Comments ====================================================-->
+          <div class="client-comment">
+            <p>
+              "As a complete beginner, I was overwhelmed with learning to code.
+              Yu Chen's Introduction to Programming course made the process fun
+              and approachable. I now feel confident in my coding skills!"
+            </p>
+          </div>
+        </div>
+        <div class="testimonial-box">
+          <div class="box-top">
+            <div class="profile">
+              <div class="profile-img">
+                <img src="assets/review3.jpg" alt="keagan" />
+              </div>
+              <div class="name-user">
+                <strong>John Johnson</strong>
+                <span>@JJohnson</span>
+              </div>
+            </div>
+            <!--======================================= Move Reviews Outside of Profile===================================== -->
+            <div class="reviews">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+            </div>
+          </div>
+          <!--============================================= Comments =================================================-->
+          <div class="client-comment">
+            <p>
+              "The website design that Yu Chen created for our company exceeded
+              all expectations. It was modern, responsive, and reflected our
+              brand perfectly. We’ve received nothing but compliments from our
+              clients."
+            </p>
+          </div>
+        </div>
+        <div class="testimonial-box">
+          <div class="box-top">
+            <div class="profile">
+              <div class="profile-img">
+                <img src="assets/review4.jpg" alt="keagan" />
+              </div>
+              <div class="name-user">
+                <strong>Michael Lee</strong>
+                <span>@MichaelLee</span>
+              </div>
+            </div>
+            <!--============================================ Move Reviews Outside of Profile======================================== -->
+            <div class="reviews">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+            </div>
+          </div>
+          <!--=================================================== Comments ======================================================-->
+          <div class="client-comment">
+            <p>
+              "Yu Chen is an expert in web design. He transformed our outdated
+              website into a sleek, user-friendly platform that’s already
+              driving more traffic. His attention to detail is unmatched."
+            </p>
+          </div>
+        </div>
+        <div class="testimonial-box">
+          <div class="box-top">
+            <div class="profile">
+              <div class="profile-img">
+                <img src="assets/review5.jpg" alt="keagan" />
+              </div>
+              <div class="name-user">
+                <strong>Williams da Foe</strong>
+                <span>@WilliamsDF</span>
+              </div>
+            </div>
+            <!--============================================ Move Reviews Outside of Profile========================================= -->
+            <div class="reviews">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+            </div>
+          </div>
+          <!--====================================================== Comments ===========================================================-->
+          <div class="client-comment">
+            <p>
+              "Working with Yu Chen was a fantastic experience. He understood
+              our needs perfectly and delivered a project that was both creative
+              and functional. His work truly elevated our brand's online
+              presence."
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--============================== Footer =========================-->
+    <footer id="footer">
+      <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+      </div>
+      <ul class="footer-nav">
+        <li>
+          <a href="https://www.youtube.com/" class="link"
+            ><ion-icon name="logo-youtube"></ion-icon
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/" class="link"
+            ><ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a href="https://mail.google.com/" class="link"
+            ><ion-icon name="mail-outline"></ion-icon
+          ></a>
+        </li>
+      </ul>
+      <ul class="menu">
+        <li><a href="review.html">Review</a></li>
+        <li><a href="about.html">Story</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <p>2024 © All Rights Reserved | Thomas 3040 | Made with Innovation</p>
+    </footer>
+
+    <!--========================== Scroll Up=========================-->
+    <a href="#" class="scrollup" id="scroll-up"
+      ><ion-icon name="arrow-up-circle-outline"></ion-icon
+    ></a>
+    <script src="index.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="projects.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects | Keagan</title>
+  </head>
+  <body>
+    <!--=================  HEADER =======================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="main.html" class="nav_logo">
+          <span class="nav_logo_square">L</span>
+          <span class="nav_logo_name">YuChen.</span>
+        </a>
+
+        <div class="nav_menu" id="nav-menu">
+          <span class="nav_title">Menu</span>
+          <h3 class="nav_name">Yu Chen</h3>
+
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="main.html" class="nav_link">Home</a>
+            </li>
+            <li class="nav_item">
+              <a href="about.html" class="nav_link">About Me</a>
+            </li>
+            <li class="nav_item">
+              <a href="projects.html" class="nav_link">Projects</a>
+            </li>
+            <li class="nav_item">
+              <a href="review.html" class="nav_link">Reviews</a>
+            </li>
+            <li class="nav_item">
+              <a href="contact.html" class="nav_link nav_link-button"
+                >Contact</a
+              >
+            </li>
+            <li class="nav_item">
+              <a href="#report" class="nav_link">Report</a>
+            </li>
+          </ul>
+          <!--Close Button-->
+          <div class="nav_close" id="nav-close">
+            <ion-icon name="close-circle-outline"></ion-icon>
+          </div>
+        </div>
+        <div class="nav-buttons">
+          <!-- Theme button-->
+          <ion-icon
+            name="moon-outline"
+            class="change-theme"
+            id="theme-button"
+          ></ion-icon>
+
+          <!--Toggle Button-->
+          <div class="nav_toggle" id="nav-toggle">
+            <ion-icon name="menu-outline"></ion-icon>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================================== Projects ==========================-->
+    <section class="projects section" id="projects">
+      <h2 class="section_title-1">
+        <span>Projects.</span>
+      </h2>
+      <div class="projects_container container grid">
+        <!-- Project 1 -->
+        <article class="projects_card">
+          <div class="projects_image">
+            <img src="assets/game.jpg" alt="project1" class="projects_img" />
+            <a class="projects_button button" id="btn1" onclick="showPopup(1)">
+              <ion-icon name="return-up-forward-outline"></ion-icon>
+            </a>
+          </div>
+          <div class="project_content">
+            <h3 class="projects_subtitle">Game</h3>
+            <h2 class="projects_title">P5.js First Game</h2>
+            <p class="projects_description">
+              This is my first game developed using P5.js. It's a simple yet
+              engaging game where players navigate through various levels,
+              avoiding obstacles and collecting points. The game helped me
+              understand the basics of game development, including rendering
+              graphics and handling user interactions.
+            </p>
+          </div>
+          <div class="projects_buttons">
+            <a href="https://github.com/" target="_blank" class="projects_link">
+              <ion-icon name="logo-github"></ion-icon> View
+            </a>
+            <a
+              href="https://stackoverflow.com/"
+              target="_blank"
+              class="projects_link"
+            >
+              <ion-icon name="logo-stackoverflow"></ion-icon> View
+            </a>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="projects_card">
+          <div class="projects_image">
+            <img src="assets/data.jpg" alt="project2" class="projects_img" />
+            <a class="projects_button button" id="btn2" onclick="showPopup(2)">
+              <ion-icon name="return-up-forward-outline"></ion-icon>
+            </a>
+          </div>
+          <div class="project_content">
+            <h3 class="projects_subtitle">Visualisation</h3>
+            <h2 class="projects_title">Data Visualisation</h2>
+            <p class="projects_description">
+              A comprehensive data visualization project that presents complex
+              datasets in a visually appealing and easily understandable format.
+              Using tools like D3.js and Chart.js, this project showcases
+              different types of charts and graphs, illustrating data trends and
+              insights.
+            </p>
+          </div>
+          <div class="projects_buttons">
+            <a href="https://github.com/" target="_blank" class="projects_link">
+              <ion-icon name="logo-github"></ion-icon> View
+            </a>
+            <a
+              href="https://stackoverflow.com/"
+              target="_blank"
+              class="projects_link"
+            >
+              <ion-icon name="logo-stackoverflow"></ion-icon> View
+            </a>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="projects_card">
+          <div class="projects_image">
+            <img src="assets/website.jpg" alt="project3" class="projects_img" />
+            <a class="projects_button button" id="btn3" onclick="showPopup(3)">
+              <ion-icon name="return-up-forward-outline"></ion-icon>
+            </a>
+          </div>
+          <div class="project_content">
+            <h3 class="projects_subtitle">Website</h3>
+            <h2 class="projects_title">Amusement Park</h2>
+            <p class="projects_description">
+              A dynamic website designed for an amusement park, featuring
+              vibrant visuals and interactive elements. The website includes
+              detailed information about the park, an online ticket booking
+              system, and a gallery of attractions, all designed to enhance user
+              engagement and experience.
+            </p>
+          </div>
+          <div class="projects_buttons">
+            <a href="https://github.com/" target="_blank" class="projects_link">
+              <ion-icon name="logo-github"></ion-icon> View
+            </a>
+            <a
+              href="https://stackoverflow.com/"
+              target="_blank"
+              class="projects_link"
+            >
+              <ion-icon name="logo-stackoverflow"></ion-icon> View
+            </a>
+          </div>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="projects_card">
+          <div class="projects_image">
+            <img
+              src="assets/firebase.jpg"
+              alt="project4"
+              class="projects_img"
+            />
+            <a class="projects_button button" id="btn4" onclick="showPopup(4)">
+              <ion-icon name="return-up-forward-outline"></ion-icon>
+            </a>
+          </div>
+          <div class="project_content">
+            <h3 class="projects_subtitle">Backend</h3>
+            <h2 class="projects_title">Firebase</h2>
+            <p class="projects_description">
+              This project demonstrates my ability to work with Firebase, a
+              powerful platform for building mobile and web applications. I
+              developed a backend system that handles user authentication,
+              real-time database operations, and cloud functions, showcasing the
+              versatility of Firebase in modern app development.
+            </p>
+          </div>
+          <div class="projects_buttons">
+            <a href="https://github.com/" target="_blank" class="projects_link">
+              <ion-icon name="logo-github"></ion-icon> View
+            </a>
+            <a
+              href="https://stackoverflow.com/"
+              target="_blank"
+              class="projects_link"
+            >
+              <ion-icon name="logo-stackoverflow"></ion-icon> View
+            </a>
+          </div>
+        </article>
+
+        <!-- Project 5 -->
+        <article class="projects_card">
+          <div class="projects_image">
+            <img src="assets/ai.jpg" alt="project5" class="projects_img" />
+            <a class="projects_button button" id="btn5" onclick="showPopup(5)">
+              <ion-icon name="return-up-forward-outline"></ion-icon>
+            </a>
+          </div>
+          <div class="project_content">
+            <h3 class="projects_subtitle">AI</h3>
+            <h2 class="projects_title">AI detection</h2>
+            <p class="projects_description">
+              An AI-powered project focused on detection and classification
+              tasks. Using machine learning algorithms and deep learning models,
+              this project can identify and classify objects or patterns in
+              images and videos, providing a foundation for more advanced AI
+              applications.
+            </p>
+          </div>
+          <div class="projects_buttons">
+            <a href="https://github.com/" target="_blank" class="projects_link">
+              <ion-icon name="logo-github"></ion-icon> View
+            </a>
+            <a
+              href="https://stackoverflow.com/"
+              target="_blank"
+              class="projects_link"
+            >
+              <ion-icon name="logo-stackoverflow"></ion-icon> View
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!--==================== Popups for Projects ====================-->
+
+    <!-- Popup for Project 1 -->
+    <div id="popup1" class="popup">
+      <div class="popup-content">
+        <span class="popup-close" id="close1">&times;</span>
+        <h2>P5.js First Game</h2>
+        <p>
+          This game was my first major project using P5.js. It features multiple
+          levels where players must navigate a character to avoid obstacles and
+          collect points. The project helped me understand core game development
+          concepts, including animation, collision detection, and scoring
+          systems.
+        </p>
+        <p>
+          The project is open-source, and you can view the code on my
+          <a href="https://github.com/" target="_blank">GitHub</a> profile.
+        </p>
+      </div>
+    </div>
+
+    <!-- Popup for Project 2 -->
+    <div id="popup2" class="popup">
+      <div class="popup-content">
+        <span class="popup-close" id="close2">&times;</span>
+        <h2>Data Visualisation</h2>
+        <p>
+          This data visualization project showcases complex datasets in a clear
+          and visually appealing way. Using tools like D3.js and Chart.js, the
+          project presents various types of charts and graphs to illustrate data
+          trends and insights effectively.
+        </p>
+        <p>
+          The code and documentation are available on
+          <a href="https://github.com/" target="_blank">GitHub</a>.
+        </p>
+      </div>
+    </div>
+
+    <!-- Popup for Project 3 -->
+    <div id="popup3" class="popup">
+      <div class="popup-content">
+        <span class="popup-close" id="close3">&times;</span>
+        <h2>Amusement Park Website</h2>
+        <p>
+          This dynamic website was designed for an amusement park, offering
+          vibrant visuals and interactive elements. It features detailed
+          information about the park, an online ticket booking system, and a
+          gallery showcasing attractions, all aimed at enhancing user engagement
+          and experience.
+        </p>
+        <p>
+          The project is available for viewing on
+          <a href="https://github.com/" target="_blank">GitHub</a>.
+        </p>
+      </div>
+    </div>
+
+    <!-- Popup for Project 4 -->
+    <div id="popup4" class="popup">
+      <div class="popup-content">
+        <span class="popup-close" id="close4">&times;</span>
+        <h2>Firebase Backend</h2>
+        <p>
+          This project demonstrates my skills in using Firebase to build a
+          backend system that handles user authentication, real-time database
+          operations, and cloud functions. It highlights Firebase's versatility
+          in modern web and mobile application development.
+        </p>
+        <p>
+          The source code and documentation are available on
+          <a href="https://github.com/" target="_blank">GitHub</a>.
+        </p>
+      </div>
+    </div>
+
+    <!-- Popup for Project 5 -->
+    <div id="popup5" class="popup">
+      <div class="popup-content">
+        <span class="popup-close" id="close5">&times;</span>
+        <h2>AI Detection</h2>
+        <p>
+          This AI-powered project focuses on detection and classification tasks
+          using machine learning algorithms and deep learning models. It can
+          identify and classify objects or patterns in images and videos, laying
+          the groundwork for more advanced AI applications.
+        </p>
+        <p>
+          The project details and source code are available on
+          <a href="https://github.com/" target="_blank">GitHub</a>.
+        </p>
+      </div>
+    </div>
+
+    <!--============================== Footer =========================-->
+    <footer id="footer">
+      <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+      </div>
+      <ul class="footer-nav">
+        <li>
+          <a href="https://www.youtube.com/" class="link"
+            ><ion-icon name="logo-youtube"></ion-icon
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/" class="link"
+            ><ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a href="https://mail.google.com/" class="link"
+            ><ion-icon name="mail-outline"></ion-icon
+          ></a>
+        </li>
+      </ul>
+      <ul class="menu">
+        <li><a href="review.html">Review</a></li>
+        <li><a href="about.html">Story</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <p>2024 © All Rights Reserved | Thomas 3040 | Made with Innovation</p>
+    </footer>
+
+    <!--========================== Scroll Up=========================-->
+    <a href="#" class="scrollup" id="scroll-up"
+      ><ion-icon name="arrow-up-circle-outline"></ion-icon
+    ></a>
+
+    <!-- JavaScript -->
+    <script src="index.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

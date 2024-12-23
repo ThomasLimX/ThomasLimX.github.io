@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="contact.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--=================  HEADER =======================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="main.html" class="nav_logo">
+          <span class="nav_logo_square">L</span>
+          <span class="nav_logo_name">YuChen.</span>
+        </a>
+
+        <div class="nav_menu" id="nav-menu">
+          <span class="nav_title">Menu</span>
+          <h3 class="nav_name">Yu Chen</h3>
+
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="main.html" class="nav_link">Home</a>
+            </li>
+            <li class="nav_item">
+              <a href="about.html" class="nav_link">About Me</a>
+            </li>
+            <li class="nav_item">
+              <a href="projects.html" class="nav_link">Projects</a>
+            </li>
+            <li class="nav_item">
+              <a href="review.html" class="nav_link">Reviews</a>
+            </li>
+            <li class="nav_item">
+              <a href="contact.html" class="nav_link nav_link-button"
+                >Contact</a
+              >
+            </li>
+            <li class="nav_item">
+              <a href="#report" class="nav_link">Report</a>
+            </li>
+          </ul>
+          <!--Close Button-->
+          <div class="nav_close" id="nav-close">
+            <ion-icon name="close-circle-outline"></ion-icon>
+          </div>
+        </div>
+        <div class="nav-buttons">
+          <!-- Theme button-->
+          <ion-icon
+            name="moon-outline"
+            class="change-theme"
+            id="theme-button"
+          ></ion-icon>
+
+          <!--Toggle Button-->
+          <div class="nav_toggle" id="nav-toggle">
+            <ion-icon name="menu-outline"></ion-icon>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--============================================ Contact =================================-->
+    <section class="contact section" id="contact">
+      <div class="contact_container grid">
+        <div class="contact_data">
+          <h2 class="section_title-2">
+            <span>Contact Me.</span>
+          </h2>
+          <p class="contact_description-1">
+            Please drop an email if you would like to work with me!
+          </p>
+
+          <p class="contact_description-2">
+            I would need your <b>Name</b> and <b>Email Address</b>, do noted I
+            would reply in <b>3-5 Business day</b>
+          </p>
+
+          <div class="geometric-box"></div>
+        </div>
+
+        <div class="contact_mail">
+          <h1 class="contact_title">Send Me A Message</h1>
+          <form class="contact_form" id="contact-form">
+            <div class="contact_group">
+              <div class="contact_box">
+                <input
+                  type="text"
+                  name="user_name"
+                  class="contact_input"
+                  id="name"
+                  required
+                  placeholder="Name"
+                />
+                <label for="name" class="contact_label">Name</label>
+              </div>
+
+              <div class="contact_box">
+                <input
+                  type="email"
+                  name="user_email"
+                  class="contact_input"
+                  id="email"
+                  required
+                  placeholder="Email Address"
+                />
+                <label for="email" class="contact_label">Email Address</label>
+              </div>
+            </div>
+
+            <div class="contact_box">
+              <input
+                type="text"
+                name="user_subject"
+                class="contact_input"
+                id="subject"
+                required
+                placeholder="Subject"
+              />
+              <label for="subject" class="contact_label">Subject</label>
+            </div>
+
+            <div class="contact_box contact_area">
+              <textarea
+                name="user_message"
+                id="message"
+                class="contact_input"
+                required
+                placeholder="Message"
+              ></textarea>
+              <label for="message" class="contact_label">Message</label>
+            </div>
+
+            <button type="submit" class="contact_button button">
+              <ion-icon name="send-outline"></ion-icon> Send Message
+            </button>
+          </form>
+        </div>
+
+        <div class="contact_social">
+          <img
+            src="assets/curved-arrow.png"
+            alt="contact-arrow"
+            class="contact_social-arrow"
+          />
+          <div class="contact_social-data">
+            <div>
+              <p class="contact_social-description-1">Does not send emails</p>
+              <p class="contact_social-description-2">Write me on my socials</p>
+            </div>
+            <div class="contact_social-links">
+              <a
+                href="https://x.com/"
+                target="_blank"
+                class="contact_social-link"
+                ><ion-icon name="logo-twitter"></ion-icon
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/keagan-suah/?originalSubdomain=sg"
+                target="_blank"
+                class="contact_social-link"
+                ><ion-icon name="logo-linkedin"></ion-icon
+              ></a>
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                class="contact_social-link"
+                ><ion-icon name="logo-instagram"></ion-icon
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--============================== Footer =========================-->
+    <footer id="footer">
+      <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+      </div>
+      <ul class="footer-nav">
+        <li>
+          <a href="https://www.youtube.com/" class="link"
+            ><ion-icon name="logo-youtube"></ion-icon
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/" class="link"
+            ><ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a href="https://mail.google.com/" class="link"
+            ><ion-icon name="mail-outline"></ion-icon
+          ></a>
+        </li>
+      </ul>
+      <ul class="menu">
+        <li><a href="review.html">Review</a></li>
+        <li><a href="about.html">Story</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <p>2024 © All Rights Reserved | Thomas 3040 | Made with Innovation</p>
+    </footer>
+
+    <!--========================== Scroll Up=========================-->
+    <a href="#" class="scrollup" id="scroll-up"
+      ><ion-icon name="arrow-up-circle-outline"></ion-icon
+    ></a>
+    <script src="index.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

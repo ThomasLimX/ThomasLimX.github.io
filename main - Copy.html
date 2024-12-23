@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="main.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home-page</title>
+  </head>
+  <body>
+    <!--=================  HEADER =======================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav_logo">
+          <span class="nav_logo_square">S</span>
+          <span class="nav_logo_name">Keagan.</span>
+        </a>
+
+        <div class="nav_menu" id="nav-menu">
+          <span class="nav_title">Menu</span>
+          <h3 class="nav_name">Keagan</h3>
+
+          <ul class="nav_list">
+            <li class="nav_item"><a href="#home" class="nav_link">Home</a></li>
+            <li class="nav_item">
+              <a href="about.html" class="nav_link">About Me</a>
+            </li>
+            <li class="nav_item">
+              <a href="#projects" class="nav_link">Projects</a>
+            </li>
+            <li class="nav_item">
+              <a href="#reviews" class="nav_link">Reviews</a>
+            </li>
+            <li class="nav_item">
+              <a href="#contact" class="nav_link nav_link-button">Contact</a>
+            </li>
+            <li class="nav_item">
+              <a href="#report" class="nav_link">Report</a>
+            </li>
+          </ul>
+          <!--Close Button-->
+          <div class="nav_close" id="nav-close">
+            <ion-icon name="close-circle-outline"></ion-icon>
+          </div>
+        </div>
+        <div class="nav-buttons">
+          <!-- Theme button-->
+          <ion-icon
+            name="moon-outline"
+            class="change-theme"
+            id="theme-button"
+          ></ion-icon>
+
+          <!--Toggle Button-->
+          <div class="nav_toggle" id="nav-toggle">
+            <ion-icon name="menu-outline"></ion-icon>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!---============================ Main ===================================-->
+    <main class="main">
+      <!--======================================= Home  =========================-->
+      <section class="home section" id="home">
+        <div class="home_container container grid">
+          <h1 class="home_name">Keagan Suah</h1>
+          <div class="home_perfil">
+            <div class="home_image">
+              <img src="assets/testing-2.jpeg" alt="myself" class="home_img" />
+              <div class="home_shadow"></div>
+              <img
+                src="assets/curved-arrow.png"
+                alt="arrow"
+                class="home_arrow"
+              />
+              <img src="assets/lines.png" alt="line" class="home_line" />
+              <div class="geometric-box"></div>
+            </div>
+          </div>
+          <div class="home_social">
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              class="home_social-link"
+            >
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/keagan-suah/?originalSubdomain=sg"
+              target="_blank"
+              class="home_social-link"
+              ><ion-icon name="logo-linkedin"></ion-icon
+            ></a>
+            <a
+              href="https://github.com/suahjl"
+              target="_blank"
+              class="home_social-link"
+              ><ion-icon name="logo-github"></ion-icon
+            ></a>
+          </div>
+          <div class="home_info">
+            <p class="home_description">
+              <b>Software Developer</b>, with knowledge in Javascript, Phython
+              and Web Design. I offer the upmost professional services,
+              upholding my quality work.
+            </p>
+
+            <a href="#about" class="home_scroll">
+              <div class="home_scroll-box">
+                <ion-icon name="caret-down-outline"></ion-icon>
+              </div>
+              <span class="home_scroll-text">Scroll Down</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--================================ About =====================-->
+    <section class="about section" id="about">
+      <div class="about-container container grid">
+        <h2 class="section_title-1">
+          <span>About Me.</span>
+        </h2>
+        <div class="about_perfil">
+          <div class="about_image">
+            <img
+              src="assets/keagan.jpg"
+              alt="aboutimage"
+              class="about-image2"
+            />
+            <div class="about_shadow"></div>
+
+            <div class="geometric-box"></div>
+            <img src="assets/lines.png" alt="line-about" class="about_line" />
+            <div class="about_box"></div>
+          </div>
+        </div>
+        <div class="about_info">
+          <p class="about_description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut cum
+            repellat consequatur tenetur libero nostrum nihil soluta, saepe
+            distinctio sed illum mollitia fugiat, dolore esse quasi.
+            Voluptatibus eum corrupti voluptatum.
+          </p>
+          <ul class="about_list">
+            <li class="about_item">
+              <b>My Skills Are:</b> HTML, CSS, Javascript, React, Github,
+              Phython.
+            </li>
+          </ul>
+          <div class="about_buttons">
+            <a href="#contact" class="button">
+              <ion-icon name="paper-plane-outline"></ion-icon>Contact Me
+            </a>
+            <a
+              href="https://www.linkedin.com/"
+              target="_blank"
+              class="button_ghost"
+            >
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--===========================Services============================-->
+    <section class="services-section">
+      <h2 class="section_title-2">
+        <span>Services.</span>
+      </h2>
+      <div class="services_container container grid">
+        <article class="services_card">
+          <div class="services_border"></div>
+          <div class="services_content">
+            <div class="services_icon">
+              <div class="services_box"></div>
+              <ion-icon name="logo-python"></ion-icon>
+            </div>
+            <h2 class="services_title">Data Analysis</h2>
+            <p class="services_description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ex
+              accusantium distinctio repellat sed voluptas aut illo non esse
+              quidem dignissimos exercitationem beatae eveniet facere, dolore
+              voluptatem earum provident fugiat.
+            </p>
+          </div>
+        </article>
+
+        <article class="services_card">
+          <div class="services_border"></div>
+          <div class="services_content">
+            <div class="services_icon">
+              <div class="services_box"></div>
+              <ion-icon name="logo-javascript"></ion-icon>
+            </div>
+            <h2 class="services_title">Introduction to Programming</h2>
+            <p class="services_description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ex
+              accusantium distinctio repellat sed voluptas aut illo non esse
+              quidem dignissimos exercitationem beatae eveniet facere, dolore
+              voluptatem earum provident fugiat.
+            </p>
+          </div>
+        </article>
+
+        <article class="services_card">
+          <div class="services_border"></div>
+          <div class="services_content">
+            <div class="services_icon">
+              <div class="services_box"></div>
+              <ion-icon name="logo-html5"></ion-icon>
+            </div>
+            <h2 class="services_title">Website Design</h2>
+            <p class="services_description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ex
+              accusantium distinctio repellat sed voluptas aut illo non esse
+              quidem dignissimos exercitationem beatae eveniet facere, dolore
+              voluptatem earum provident fugiat.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!--==================================== Projects ==========================-->
+    <section class="projects section" id="projects">
+      <h2 class="section_title-1">
+        <span>Projects.</span>
+      </h2>
+      <div class="projects_container container grid">
+        <article class="projects_card">
+          <div class="projects_image">
+            <img src="assets/game.jpg" alt="project1" class="projects_img" />
+            <a href="#" class="projects_button button">
+              <ion-icon name="return-up-forward-outline"></ion-icon>
+            </a>
+          </div>
+          <div class="project_content">
+            <h3 class="projects_subtitle">Game</h3>
+            <h2 class="projects_title">P5.js First Game</h2>
+            <p class="projects_description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In minima
+              architecto excepturi iure repellendus omnis, tenetur obcaecati
+              minus temporibus consectetur sed sit recusandae at hic delectus
+              ipsam tempore maxime. Fugiat.
+            </p>
+          </div>
+          <div class="projects_buttons">
+            <a href="https://github.com/" target="_blank" class="projects_link">
+              <ion-icon name="logo-github"></ion-icon> View
+            </a>
+            <a
+              href="https://stackoverflow.com/"
+              target="_blank"
+              class="projects_link"
+            >
+              <ion-icon name="logo-stackoverflow"></ion-icon> View
+            </a>
+          </div>
+        </article>
+        <article class="projects_card">
+          <div class="projects_image">
+            <img src="assets/data.jpg" alt="project1" class="projects_img" />
+            <a href="#" class="projects_button button">
+              <ion-icon name="return-up-forward-outline"></ion-icon>
+            </a>
+          </div>
+          <div class="project_content">
+            <h3 class="projects_subtitle">Visualisation</h3>
+            <h2 class="projects_title">Data Visualisation</h2>
+            <p class="projects_description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In minima
+              architecto excepturi iure repellendus omnis, tenetur obcaecati
+              minus temporibus consectetur sed sit recusandae at hic delectus
+              ipsam tempore maxime. Fugiat.
+            </p>
+          </div>
+          <div class="projects_buttons">
+            <a href="https://github.com/" target="_blank" class="projects_link">
+              <ion-icon name="logo-github"></ion-icon> View
+            </a>
+            <a
+              href="https://stackoverflow.com/"
+              target="_blank"
+              class="projects_link"
+            >
+              <ion-icon name="logo-stackoverflow"></ion-icon> View
+            </a>
+          </div>
+        </article>
+        <article class="projects_card">
+          <div class="projects_image">
+            <img src="assets/website.jpg" alt="project1" class="projects_img" />
+            <a href="#" class="projects_button button">
+              <ion-icon name="return-up-forward-outline"></ion-icon>
+            </a>
+          </div>
+          <div class="project_content">
+            <h3 class="projects_subtitle">Website</h3>
+            <h2 class="projects_title">Amusement Park</h2>
+            <p class="projects_description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In minima
+              architecto excepturi iure repellendus omnis, tenetur obcaecati
+              minus temporibus consectetur sed sit recusandae at hic delectus
+              ipsam tempore maxime. Fugiat.
+            </p>
+          </div>
+          <div class="projects_buttons">
+            <a href="https://github.com/" target="_blank" class="projects_link">
+              <ion-icon name="logo-github"></ion-icon> View
+            </a>
+            <a
+              href="https://stackoverflow.com/"
+              target="_blank"
+              class="projects_link"
+            >
+              <ion-icon name="logo-stackoverflow"></ion-icon> View
+            </a>
+          </div>
+        </article>
+        <article class="projects_card">
+          <div class="projects_image">
+            <img
+              src="assets/firebase.jpg"
+              alt="project1"
+              class="projects_img"
+            />
+            <a href="#" class="projects_button button">
+              <ion-icon name="return-up-forward-outline"></ion-icon>
+            </a>
+          </div>
+          <div class="project_content">
+            <h3 class="projects_subtitle">Backend</h3>
+            <h2 class="projects_title">Firebase</h2>
+            <p class="projects_description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In minima
+              architecto excepturi iure repellendus omnis, tenetur obcaecati
+              minus temporibus consectetur sed sit recusandae at hic delectus
+              ipsam tempore maxime. Fugiat.
+            </p>
+          </div>
+          <div class="projects_buttons">
+            <a href="https://github.com/" target="_blank" class="projects_link">
+              <ion-icon name="logo-github"></ion-icon> View
+            </a>
+            <a
+              href="https://stackoverflow.com/"
+              target="_blank"
+              class="projects_link"
+            >
+              <ion-icon name="logo-stackoverflow"></ion-icon> View
+            </a>
+          </div>
+        </article>
+        <article class="projects_card">
+          <div class="projects_image">
+            <img src="assets/ai.jpg" alt="project1" class="projects_img" />
+            <a href="#" class="projects_button button">
+              <ion-icon name="return-up-forward-outline"></ion-icon>
+            </a>
+          </div>
+          <div class="project_content">
+            <h3 class="projects_subtitle">AI</h3>
+            <h2 class="projects_title">AI detection</h2>
+            <p class="projects_description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In minima
+              architecto excepturi iure repellendus omnis, tenetur obcaecati
+              minus temporibus consectetur sed sit recusandae at hic delectus
+              ipsam tempore maxime. Fugiat.
+            </p>
+          </div>
+          <div class="projects_buttons">
+            <a href="https://github.com/" target="_blank" class="projects_link">
+              <ion-icon name="logo-github"></ion-icon> View
+            </a>
+            <a
+              href="https://stackoverflow.com/"
+              target="_blank"
+              class="projects_link"
+            >
+              <ion-icon name="logo-stackoverflow"></ion-icon> View
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!--============================================ Contact =================================-->
+    <section class="contact section" id="contact">
+      <div class="contact_container grid">
+        <div class="contact_data">
+          <h2 class="section_title-2">
+            <span>Contact Me.</span>
+          </h2>
+          <p class="contact_description-1">
+            Please drop an email if you would like to work with me!
+          </p>
+
+          <p class="contact_description-2">
+            I would need your <b>Name</b> and <b>Email Address</b>, do noted I
+            would reply in <b>3-5 Business day</b>
+          </p>
+
+          <div class="geometric-box"></div>
+        </div>
+
+        <div class="contact_mail">
+          <h1 class="contact_title">Send Me A Message</h1>
+          <form class="contact_form" id="contact-form">
+            <div class="contact_group">
+              <div class="contact_box">
+                <input
+                  type="text"
+                  name="user_name"
+                  class="contact_input"
+                  id="name"
+                  required
+                  placeholder="Name"
+                />
+                <label for="name" class="contact_label">Name</label>
+              </div>
+
+              <div class="contact_box">
+                <input
+                  type="email"
+                  name="user_email"
+                  class="contact_input"
+                  id="email"
+                  required
+                  placeholder="Email Address"
+                />
+                <label for="email" class="contact_label">Email Address</label>
+              </div>
+            </div>
+
+            <div class="contact_box">
+              <input
+                type="text"
+                name="user_subject"
+                class="contact_input"
+                id="subject"
+                required
+                placeholder="Subject"
+              />
+              <label for="subject" class="contact_label">Subject</label>
+            </div>
+
+            <div class="contact_box contact_area">
+              <textarea
+                name="user_message"
+                id="message"
+                class="contact_input"
+                required
+                placeholder="Message"
+              ></textarea>
+              <label for="message" class="contact_label">Message</label>
+            </div>
+
+            <button type="submit" class="contact_button button">
+              <ion-icon name="send-outline"></ion-icon> Send Message
+            </button>
+          </form>
+        </div>
+
+        <div class="contact_social">
+          <img
+            src="assets/curved-arrow.png"
+            alt="contact-arrow"
+            class="contact_social-arrow"
+          />
+          <div class="contact_social-data">
+            <div>
+              <p class="contact_social-description-1">Does not send emails</p>
+              <p class="contact_social-description-2">Write me on my socials</p>
+            </div>
+            <div class="contact_social-links">
+              <a
+                href="https://x.com/"
+                target="_blank"
+                class="contact_social-link"
+                ><ion-icon name="logo-twitter"></ion-icon
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/keagan-suah/?originalSubdomain=sg"
+                target="_blank"
+                class="contact_social-link"
+                ><ion-icon name="logo-linkedin"></ion-icon
+              ></a>
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                class="contact_social-link"
+                ><ion-icon name="logo-instagram"></ion-icon
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--============================== Footer =========================-->
+    <footer id="footer">
+      <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+      </div>
+      <ul class="footer-nav">
+        <li>
+          <a href="https://www.youtube.com/watch?v=nlhEAdPxIX4" class="link"
+            ><ion-icon name="logo-youtube"></ion-icon
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/keagan-suah/?originalSubdomain=sg"
+            class="link"
+            ><ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a href="gmail.com" class="link"
+            ><ion-icon name="mail-outline"></ion-icon
+          ></a>
+        </li>
+      </ul>
+      <ul class="menu">
+        <li><a href="#">Review</a></li>
+        <li><a href="#">Story</a></li>
+        <li><a href="#">Career</a></li>
+      </ul>
+      <p>2024 © All Rights Reserved | Thomas 3040 | Made with Innovation</p>
+    </footer>
+
+    <!--========================== Scroll Up=========================-->
+    <a href="#" class="scrollup" id="scroll-up"
+      ><ion-icon name="arrow-up-circle-outline"></ion-icon
+    ></a>
+    <script src="index.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
