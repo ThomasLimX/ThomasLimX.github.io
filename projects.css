@@ -417,11 +417,14 @@ body {
 }
 
 h1,
-h2,
 h3,
 h4 {
   color: var(--title-color);
   font-weight: var(--font-bold);
+}
+
+h2 {
+  color: #000;
 }
 
 /*========================= Responsive Text =============*/
@@ -570,6 +573,7 @@ h4 {
   height: 100%;
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.8);
+  color: #000;
 }
 
 /* Popup Content */
